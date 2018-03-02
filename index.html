@@ -1,155 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="my.css" rel="stylesheet" type="text/css" media="all" />
+	<head>
+		<title>Aerial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg">
+					<!-- particles.js container -->
+					<div id="particles-js"></div>
+					<!-- stats - count particles -->
+					<div class="count-particles"> <span class="js-count-particles">--</span>  </div>
+					<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+					 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+					<!-- stats.js lib -->
+					<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+			</div>
+			<div id="overlay"></div>
+			<div id="main">
 
+				<!-- Header -->
+					<header id="header">
+						<h1>Apoorv Khare</h1>
+						<p>Programmer &nbsp;&bull;&nbsp;  Dreamer  &nbsp;&bull;&nbsp; Learner &nbsp;&bull;&nbsp; Moviemaking Enthusiast</p>
+						<nav>
+							<ul>
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-</head>
-<body>
+				<!--
+					<footer id="footer">
+						<span class="copyright">&copy; <a href="http://html5up.net"></a>.</span>
+					</footer>
+ Footer -->
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},
+			"shape":{"type":"circle","stroke":{"width":0,"color":"#ffffff"},
+			"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},
+			"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},
+			"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},
+			"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},
+			"bubble":{"distance":400,"size":40,
+			"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myCarousel">Ak</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">WORK</a></li>
-        <li><a href="#tour">ABOUT</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Extras</a></li>
-            <li><a href="#">Media</a></li> 
-          </ul>
-        </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+			/*var count_particles, stats, update; stats = new Stats; stats.setMode(0);
+			stats.domElement.style.position = 'absolute';
+			 stats.domElement.style.left = '0px';
+			 stats.domElement.style.top = '0px';
+			 document.body.appendChild(stats.domElement);
+			 count_particles = document.querySelector('.js-count-particles');
+			  update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); };
+			 requestAnimationFrame(update);;*/
 
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="4.jpeg" alt="New York" width="1200" height="700">
-        <div class="carousel-caption">
-          <h2>Apoorv</h2>
-          <h3>Budding entrepreneur</h3>
-          <p>Everything begins with an idea.</p>
-        </div>      
-      </div>
-
-      <div class="item">
-        <img src="6.jpg" alt="Chicago" width="1200" height="700">
-        <div class="carousel-caption">
-          <h2>Apoorv</h2>
-          <h3>Beginner at cinematography</h3>
-          <p>Cinema is the most beautiful illusion in this world.</p>
-        </div>      
-      </div>
-    
-      <div class="item">
-        <img src="3.jpeg" alt="Los Angeles" width="1200" height="700">
-        <div class="carousel-caption">         
-         <h2>Apoorv</h2>
-          <h3>Web development and Programming enthusiast</h3>
-          <p>while(!(succeed=try()))</p>
-        </div>      
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<div class="home_ w3layouts">
- <div class="home_grids_w3">
-  <div class="home_main">
-     <div class="col-md-7 col-sm-7 col-xs-7 img1 img-grid">
-       <div class="img_text_w3ls text-center">
-        <h4>Eget Integer sit amet.</h4>
-        <span> </span>
-        <p>Ras Bestibulum </p>
-      </div>
-    </div>
-    <div class="col-md-5 img2 col-sm-5 col-xs-5 img-grid">
-        <div class="img_text_w3ls text-center">
-        <h4>Eget Integer sit amet.</h4>
-        <span> </span>
-        <p>Cas vstibulum </p>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-  </div>
-  <div class="home_main">
-     <div class="col-md-5 col-sm-5 col-xs-5 img3 img-grid ">
-        <div class="img_text_w3ls text-center">
-        <h4>Eget Integer sit amet.</h4>
-        <span> </span>
-        <p>Asid Estibulum </p>
-        </div>
-    </div>
-     <div class="col-md-7 col-sm-7 col-xs-7 img-grid  img5">
-      <div class="img_text_w3ls text-center">
-        <h4>Eget Integer sit amet.</h4>
-        <span> </span>
-        <p>Cras vestibulum </p>
-      </div>
-     </div>
-  <div class="clearfix"></div>
-  </div>
-   <div class="home_main">
-    <div class="col-md-7 col-sm-7 col-xs-7 img4 img-grid">
-        <div class="img_text_w3ls text-center">
-        <h4>Eget Integer sit amet.</h4>
-        <span> </span>
-        <p>Cras vestibulum </p>
-      </div>
-   </div>
-    <div class="col-md-5 col-sm-5 col-xs-5 img6 img-grid ">
-      <div class="img_text_w3ls text-center">
-        <h4>Eget Integer sit amet.</h4>
-        <span> </span>
-        <p>Cras vestibulum </p>
-      </div>
-     </div>
-    <div class="clearfix"></div>
-  </div>
-</div>
-</div>
-</body>
+		</script>
+	</body>
 </html>
