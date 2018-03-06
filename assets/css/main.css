@@ -556,8 +556,8 @@
 				-ms-transform: translate3d(0,0,0);
 				transform: translate3d(0,0,0);
 				display: inline-block;
-				height: 5.35em;
-				line-height: 5.885em;
+				height: 4.35em;
+				line-height: 2.885em;
 				opacity: 0;
 				position: relative;
 				top: 0;
@@ -726,6 +726,7 @@
 				}
 
 	}
+
 
 		@-webkit-keyframes bg {
 			0% {
@@ -959,15 +960,15 @@
 		}
 
 		#header nav {
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 
 			#header nav a:hover {
-				font-size: 1em;
+				font-size: 1.5em;
 			}
 
 			#header nav a:active {
-				font-size: 1em;
+				font-size: 1.5em;
 			} }
 
 /* Mobile (Portrait) */
@@ -1050,4 +1051,36 @@
 
 		#header nav {
 			padding: 0 1em;
+			width: 100vw;
 		} }
+
+
+.cool-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+		font-size: 1.2em;
+font-weight: ;
+}
+.cool-link a:hover {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+		font-size: 2.5em;
+
+}
