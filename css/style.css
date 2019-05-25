@@ -2685,8 +2685,8 @@ h6 {
       transform: rotate(135deg);
       color: #ffffff;
       cursor: pointer; }
-  .single_portfolio:hover .overlay {
-    background: rgba(77, 87, 222, 0.5); }
+  /* .single_portfolio:hover .overlay {
+    background: rgba(77, 87, 222, 0.5); } */
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
