@@ -2,6 +2,7 @@
 
 1. `yarn` on main directory.
 2. `yarn web` on main directory
+3. Head over to localhost:3000/crypto
 
 <!-- ## Icons
 
