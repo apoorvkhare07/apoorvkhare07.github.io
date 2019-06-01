@@ -9,12 +9,13 @@ import Box from 'reusecore/src/elements/Box';
 import HamburgMenu from '../../../components/HamburgMenu';
 import Container from '../../../components/UI/Container';
 import { DrawerContext } from '../../../contexts/DrawerContext';
+import Text from 'reusecore/src/elements/Text';
 
 import { MENU_ITEMS } from '../../../data/Crypto';
 import ScrollSpyMenu from '../../../components/ScrollSpyMenu';
 
-import LogoImage from '../../../assets/image/saasTwo/logo-white.png';
-import LogoImageAlt from '../../../assets/image/saasTwo/logo.png';
+import LogoImage from '../../../assets/image/crypto/logo.png';
+import LogoImageAlt from '../../../assets/image/crypto/logo.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -33,10 +34,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           <Logo
             href="#"
             logoSrc={LogoImage}
-            title="Portfolio"
+            title="Be Radically intelligent"
             logoStyle={logoStyle}
             className="main-logo"
           />
+          {/* <Text
+            content="Be Radically intelligent"
+            // {...description}
+          /> */}
           <Logo
             href="#"
             logoSrc={LogoImageAlt}
@@ -102,6 +107,8 @@ Navbar.defaultProps = {
   },
   logoStyle: {
     maxWidth: ['120px', '130px'],
+    width: '3em',
+    height: 'auto',
   },
   button: {
     type: 'button',

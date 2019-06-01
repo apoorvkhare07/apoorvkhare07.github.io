@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ContactFromWrapper = styled.div`
   display: flex;
   align-items: stretch;
-  width: 490px;
+  width: 400px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -12,6 +12,7 @@ const ContactFromWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
+    margin-top: 25px;
     button {
       width: 100%;
     }

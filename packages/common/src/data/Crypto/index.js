@@ -13,37 +13,37 @@ import PROOF4 from '../../assets/image/crypto/proof4.svg';
 import PROOF5 from '../../assets/image/crypto/proof5.svg';
 import PROOF6 from '../../assets/image/crypto/proof6.svg';
 import JACKPOTIMG from '../../assets/image/crypto/jackpot.svg';
-import BETA1 from '../../assets/image/crypto/beta-1.svg';
-import BETA2 from '../../assets/image/crypto/beta-2.svg';
+import BETA1 from '../../assets/image/crypto/SG.png';
+import BETA2 from '../../assets/image/crypto/ef.png';
 import BETA3 from '../../assets/image/crypto/beta-3.svg';
 
 export const MENU_ITEMS = [
+  // {
+  //   label: 'Home',
+  //   path: '#banner_section',
+  //   offset: '0',
+  // },
   {
-    label: 'Home',
-    path: '#banner_section',
-    offset: '0',
-  },
-  {
-    label: 'Feature',
+    label: 'Features',
     path: '#trusted',
     offset: '0',
   },
   {
-    label: 'Offers',
+    label: 'About Us',
     path: '#scalable',
     offset: '-10',
   },
 
   {
-    label: 'Payment Proofs',
+    label: 'Careers',
     path: '#featureslider',
     offset: '-10',
   },
-  {
-    label: 'Contact Us',
-    path: '#footerSection',
-    offset: '380',
-  },
+  // {
+  //   label: 'Contact Us',
+  //   path: '#footerSection',
+  //   offset: '380',
+  // },
 ];
 
 export const TESTIMONIALS = [
@@ -79,17 +79,17 @@ export const TESTIMONIALS = [
 export const TRANSACTIONS_FEATURE = [
   {
     image: FEATURE1,
-    title: 'Create Payment Address',
+    title: 'Helping them get more done in less time',
     des: 'Provide your payout wallet address and callback URL to PayBear API.',
   },
   {
     image: FEATURE2,
-    title: 'Ask for Payment',
+    title: 'Reducing spend on external advisers',
     des: 'Show your customer the wallet address as well as the payment amount.',
   },
   {
     image: FEATURE3,
-    title: 'Get Paid',
+    title: 'Helping them collaborate like never before',
     des: 'Payment is sent to the payout wallet immediately.',
   },
   {
@@ -157,18 +157,13 @@ export const SCALABLE_FEATURE = [
 export const BETA_FEATURE = [
   {
     image: BETA1,
-    title: 'SEPA Transfers',
+    title: 'SGInnovate',
     des: 'Deposit & Withdraw money.',
   },
   {
     image: BETA2,
-    title: '24/7 Support',
+    title: 'Entrepreneur First',
     des: 'Always here for you.',
-  },
-  {
-    image: BETA3,
-    title: 'Secure',
-    des: 'Your money is safe.',
   },
 ];
 

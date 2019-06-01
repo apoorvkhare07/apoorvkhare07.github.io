@@ -31,7 +31,7 @@ const TransactionsHistory = ({
             <FeatureBlock
               title={<Heading {...title} />}
               description={<Text {...description} />}
-              button={<Button title="GET DOCS" {...btnStyle} />}
+              // button={<Button title="GET DOCS" {...btnStyle} />}
             />
           </Box>
           <Box className="colright" {...col} {...cardArea}>
@@ -88,7 +88,7 @@ TransactionsHistory.defaultProps = {
 
   // Transactions section title default style
   title: {
-    content: 'Our wallet is built for the crypto novice',
+    content: 'How MICA helps',
     fontSize: ['24px', '26px', '30px', '36px', '40px'],
     lineHeight: ['30px', '32px', '40px', '50px', '55px'],
     fontWeight: '700',
@@ -101,7 +101,7 @@ TransactionsHistory.defaultProps = {
   // Transactions section description default style
   description: {
     content:
-      'You can trust us for any kind of services and some of the world class companies have also trusted us .',
+      'MICA helps compliance teams become ridiculously efficient by helping them do what they do best  -  only faster, cheaper and easier by',
     fontSize: '16px',
     fontWeight: '400',
     color: '#525f7f',
@@ -111,7 +111,7 @@ TransactionsHistory.defaultProps = {
     maxWidth: ['100%', '100%', '100%', '100%', '430px'],
   },
   sectionSubTitle: {
-    content: 'How Transactions Work',
+    content: 'How MICA Helps',
     as: 'span',
     textAlign: 'left',
     fontSize: ['16px', '16px', '18px', '20px', '20px'],

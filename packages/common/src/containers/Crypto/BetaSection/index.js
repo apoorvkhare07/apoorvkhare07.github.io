@@ -76,7 +76,7 @@ BetaSection.defaultProps = {
   },
 
   title: {
-    content: 'Be the first to use our Beta!',
+    content: 'About Us',
     fontSize: ['24px', '26px', '30px', '36px', '40px'],
     lineHeight: ['30px', '32px', '40px', '50px', '55px'],
     fontWeight: '700',
@@ -87,7 +87,7 @@ BetaSection.defaultProps = {
   },
 
   description: {
-    content: 'Become part of our ever growing community.',
+    content: 'We are a seed-funded RegTech (Regulatory Technology) company backed by SeedPlus, SGInnovate, the Singaporean government’s innovation arm and Entrepreneur First, the world’s leading accelerator and we have developed ​MICA,​ which stands for My Intelligence Compliance Assistant.  Today, MICA already helps our clients track, understand and act on regulatory changes more effectively than they ever did before.',
     fontSize: '16px',
     fontWeight: '400',
     color: '#525f7f',

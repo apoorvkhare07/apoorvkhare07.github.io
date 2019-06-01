@@ -44,12 +44,12 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <Banner />
-          <BannerSlider />
+          {/* <BannerSlider /> */}
           <Transactions />
           <ControlSections />
-          <TrustedProofSections />
-          <ScalableSections />
-          <SlideSections />
+          {/* <TrustedProofSections /> */}
+          {/* <ScalableSections /> */}
+          {/* <SlideSections /> */}
           <BetaSections />
           <Footer />
         </ContentWrapper>

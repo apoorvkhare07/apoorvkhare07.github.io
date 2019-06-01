@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const BetaSectionWrapper = styled.section`
   padding: 30px 0 400px;
+  margin-top: 100px;
 `;
 const FeatureSection = styled.section`
   display: flex;

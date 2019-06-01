@@ -13,12 +13,15 @@ import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { facebook2 } from 'react-icons-kit/icomoon/facebook2';
 import BannerBG from '../../../assets/image/crypto/white_bg1.svg';
 import BannerWrapper, { BgImageWrapper } from './bannerSection.style';
+import ContactFromWrapper from '../Contact/contact.style';
+import Input from 'reusecore/src/elements/Input';
 
 const BannerSection = ({
   row,
   col,
   title,
   btnStyle,
+  button,
   description,
   discountText,
   discountAmount,
@@ -67,19 +70,30 @@ const BannerSection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="Accounts Payable Automation 80% Faster Bill Pay and AP"
+                  content="Meet MICA"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Agencies around the world are moving to the digital agencies. So, It is high time to introduce your agency digitaly."
+                  content="Mica helps compliance teams become ridiculously efficient at what they do!"
                   {...description}
                 />
               }
-              button={<ButtonGroup />}
+              // button={<ButtonGroup />}
             />
-            <FeatureBlock button={<ShareButtonGroup />} />
+            <ContactFromWrapper>
+                <Input
+                  inputType="email"
+                  placeholder="Enter Your Email address"
+                  iconPosition="right"
+                  isMaterial={false}
+                  className="email_input"
+                  style= {{marginTop: 5+'em', height:4+'em', width: 35+'vw'  }}
+                />
+                <Button {...button} title="Meet MICA" style= {{marginTop: 5.25+'em', marginRight:5+'px', right:15+'em', height:50+'px'}} />
+              </ContactFromWrapper>
+            {/* <FeatureBlock button={<ShareButtonGroup />} /> */}
           </Box>
         </Box>
       </Container>
@@ -95,6 +109,7 @@ BannerSection.propTypes = {
   discountText: PropTypes.object,
   discountAmount: PropTypes.object,
   outlineBtnStyle: PropTypes.object,
+  button: PropTypes.object,
 };
 
 BannerSection.defaultProps = {
@@ -137,6 +152,16 @@ BannerSection.defaultProps = {
     fontWeight: '700',
     color: '#fff',
     p: '5px 10px',
+  },
+  button: {
+    type: 'button',
+    fontSize: `${2}`,
+    fontWeight: '600',
+    borderRadius: '4px',
+    pl: '22px',
+    pr: '22px',
+    colors: 'primaryWithBg',
+    height: `${4}`,
   },
 };
 

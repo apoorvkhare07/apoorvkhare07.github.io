@@ -12,7 +12,10 @@ import Button from 'reusecore/src/elements/Button';
 import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import { ControlWrapper } from './controlSection.style';
-import ControlImage from '../../../assets/image/crypto/control.jpg';
+import Image1 from '../../../assets/image/crypto/feature-1.svg';
+import Image2 from '../../../assets/image/crypto/feature-2.svg';
+import Image3 from '../../../assets/image/crypto/feature-3.svg';
+import Image4 from '../../../assets/image/crypto/feature-4.svg';
 
 const Completionist = () => (
   <span className="readMore">You are good to go!</span>
@@ -46,7 +49,13 @@ const ControlSection = ({
   row,
   col,
   title,
+  title2,
+  title3,
+  title4,
   description,
+  description2,
+  description3,
+  description4,
   btnStyle,
   sectionSubTitle,
   cardArea,
@@ -58,24 +67,24 @@ const ControlSection = ({
         <Box className="row" {...row}>
           <Box className="colleft" {...col} style={{ flexDirection: 'column' }}>
             <Image
-              src={ControlImage}
+              src={Image1}
               className="controlImage"
               alt="Control Section Image"
             />
           </Box>
           <Box className="colright" {...col} {...cardArea}>
-            <Text {...sectionSubTitle} />
+            {/* <Text {...sectionSubTitle} /> */}
             <FeatureBlock
               title={<Heading {...title} />}
               description={<Text {...description} />}
             />
-            <Box className="readMoreSection">
-              <Text {...readMoreTitle} />
+            {/* <Box className="readMoreSection">
+              <Text {...readMoreTitle} /> 
               <Link href="#">
                 <a className="readMore">Read More. </a>
               </Link>
-            </Box>
-            <Fade up>
+            </Box> */}
+            {/* <Fade up>
               <Box className="countDownSection">
                 <Countdown
                   date={Date.now() + 909999999}
@@ -83,8 +92,8 @@ const ControlSection = ({
                   completed={false}
                 />
               </Box>
-            </Fade>
-            <Box className="countDownButton">
+            </Fade> */}
+            {/* <Box className="countDownButton">
               <Button
                 title="BUY TOKENS"
                 className="countDownMainButton"
@@ -95,7 +104,52 @@ const ControlSection = ({
                 className="countDownDiscountButton"
                 {...btnStyle}
               />
-            </Box>
+            </Box> */}
+          </Box>
+        </Box>
+        <Box className="row" {...row}>
+        <Box className="colright" {...col} {...cardArea}>
+            <FeatureBlock
+              title={<Heading {...title2} />}
+              description={<Text {...description2} />}
+            />
+          </Box>
+          <Box className="colleft" {...col} style={{ flexDirection: 'column' }}>
+            <Image
+              src={Image2}
+              className="controlImage"
+              alt="Control Section Image"
+            />
+          </Box>
+        </Box>
+        <Box className="row" {...row}>
+          <Box className="colleft" {...col} style={{ flexDirection: 'column' }}>
+            <Image
+              src={Image3}
+              className="controlImage"
+              alt="Control Section Image"
+            />
+          </Box>
+          <Box className="colright" {...col} {...cardArea}>
+            <FeatureBlock
+              title={<Heading {...title3} />}
+              description={<Text {...description3} />}
+            />
+          </Box>
+        </Box>
+        <Box className="row" {...row}>
+        <Box className="colright" {...col} {...cardArea}>
+            <FeatureBlock
+              title={<Heading {...title4} />}
+              description={<Text {...description4} />}
+            />
+          </Box>
+          <Box className="colleft" {...col} style={{ flexDirection: 'column' }}>
+            <Image
+              src={Image4}
+              className="controlImage"
+              alt="Control Section Image"
+            />
           </Box>
         </Box>
       </Container>
@@ -134,7 +188,40 @@ ControlSection.defaultProps = {
 
   // Transactions section title default style
   title: {
-    content: 'Take control of your credit and identity.',
+    content: 'Create your own regulatory feed',
+    fontSize: ['24px', '26px', '30px', '36px', '40px'],
+    lineHeight: ['30px', '32px', '40px', '50px', '55px'],
+    fontWeight: '700',
+    color: '#32325d',
+    letterSpacing: '-0.010em',
+    mb: '20px',
+    maxWidth: ['100%', '100%', '100%', '100%', '415px'],
+    textAlign: ['left', 'left'],
+  },
+  title2: {
+    content: 'Upload your policies and processes',
+    fontSize: ['24px', '26px', '30px', '36px', '40px'],
+    lineHeight: ['30px', '32px', '40px', '50px', '55px'],
+    fontWeight: '700',
+    color: '#32325d',
+    letterSpacing: '-0.010em',
+    mb: '20px',
+    maxWidth: ['100%', '100%', '100%', '100%', '415px'],
+    textAlign: ['left', 'left'],
+  },
+  title3: {
+    content: 'Leverage AI-powered impact assessments',
+    fontSize: ['24px', '26px', '30px', '36px', '40px'],
+    lineHeight: ['30px', '32px', '40px', '50px', '55px'],
+    fontWeight: '700',
+    color: '#32325d',
+    letterSpacing: '-0.010em',
+    mb: '20px',
+    maxWidth: ['100%', '100%', '100%', '100%', '415px'],
+    textAlign: ['left', 'left'],
+  },
+  title4: {
+    content: 'Manage change like never before',
     fontSize: ['24px', '26px', '30px', '36px', '40px'],
     lineHeight: ['30px', '32px', '40px', '50px', '55px'],
     fontWeight: '700',
@@ -146,6 +233,39 @@ ControlSection.defaultProps = {
   },
   // Transactions section description default style
   description: {
+    content:
+      'Crumbs makes crypto investing effortless and automated, so now you would not miss the right time to buy. From the customer wallet to the marchent wallet in a few minute.',
+    fontSize: '16px',
+    fontWeight: '400',
+    color: '#525f7f',
+    lineHeight: '28px',
+    mb: ['30px', '30px', '35px', '35px', '45px'],
+    textAlign: ['left', 'left'],
+    maxWidth: ['100%', '100%', '100%', '100%', '430px'],
+  },
+  description2: {
+    content:
+      'Crumbs makes crypto investing effortless and automated, so now you would not miss the right time to buy. From the customer wallet to the marchent wallet in a few minute.',
+    fontSize: '16px',
+    fontWeight: '400',
+    color: '#525f7f',
+    lineHeight: '28px',
+    mb: ['30px', '30px', '35px', '35px', '45px'],
+    textAlign: ['left', 'left'],
+    maxWidth: ['100%', '100%', '100%', '100%', '430px'],
+  },
+  description3: {
+    content:
+      'Crumbs makes crypto investing effortless and automated, so now you would not miss the right time to buy. From the customer wallet to the marchent wallet in a few minute.',
+    fontSize: '16px',
+    fontWeight: '400',
+    color: '#525f7f',
+    lineHeight: '28px',
+    mb: ['30px', '30px', '35px', '35px', '45px'],
+    textAlign: ['left', 'left'],
+    maxWidth: ['100%', '100%', '100%', '100%', '430px'],
+  },
+  description4: {
     content:
       'Crumbs makes crypto investing effortless and automated, so now you would not miss the right time to buy. From the customer wallet to the marchent wallet in a few minute.',
     fontSize: '16px',

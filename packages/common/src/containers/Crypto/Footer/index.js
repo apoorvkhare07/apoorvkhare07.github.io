@@ -16,16 +16,16 @@ import FooterBG from '../../../assets/image/crypto/footer-bg.svg';
 
 const Footer = ({ row, col, colOne, colTwo, titleStyle }) => {
   return (
-    <FooterWrapper id="footerSection">
-      <ContactSections />
+    <FooterWrapper id="footerSection" style={{paddingTop:200+'px'}}>
+      {/* <ContactSections /> */}
       <BgImageWrapper>
         <Image src={FooterBG} alt="Footer background" />
       </BgImageWrapper>
       <Container noGutter mobileGutter width="1200px">
         <Box className="row mainRow" {...row}>
           <Box {...colOne}>
-            <Heading content="Language" {...titleStyle} />
-            <Select
+            {/* <Heading content="Language" {...titleStyle} /> */}
+            {/* <Select
               options={Language_NAMES}
               placeholder="English"
               className="Language_search_select"
@@ -35,8 +35,8 @@ const Footer = ({ row, col, colOne, colTwo, titleStyle }) => {
               content="Download The App"
               {...titleStyle}
               className="appDownload"
-            />
-            <Box className="imageWrapper">
+            /> */}
+            {/* <Box className="imageWrapper">
               <Link href="#">
                 <a>
                   <Image src={AppImage} alt="App Image" />
@@ -47,8 +47,14 @@ const Footer = ({ row, col, colOne, colTwo, titleStyle }) => {
                   <Image src={PlaystoreImage} alt="PlaystoreImage Image" />
                 </a>
               </Link>
+            </Box>*/}
+            <Box className="row copyRight" {...row}>
+              <Text
+                content="We Are Hiring!"
+                className="copyRightText"
+              />
             </Box>
-          </Box>
+          </Box> 
           {/* End of footer logo column */}
           <Box {...colTwo}>
             {menuWidget.map(widget => (
@@ -68,12 +74,7 @@ const Footer = ({ row, col, colOne, colTwo, titleStyle }) => {
           </Box>
           {/* End of footer List column */}
         </Box>
-        <Box className="row copyRight" {...row}>
-          <Text
-            content="Copyright 2018 @Crypto Corporation."
-            className="copyRightText"
-          />
-        </Box>
+
       </Container>
     </FooterWrapper>
   );
