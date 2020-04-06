@@ -47,12 +47,13 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
-          <PortfolioShowcase />
-          <AwardsSection />
           <ProcessSection />
           <SkillSection />
-          <CallToAction />
-          <TestimonialSection />
+
+          <PortfolioShowcase />
+          {/* <AwardsSection /> */}
+          {/* <CallToAction /> */}
+          {/* <TestimonialSection /> */}
           <ClientsSection />
           <ContactSection />
           <Footer />

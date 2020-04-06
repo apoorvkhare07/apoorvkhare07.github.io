@@ -11,7 +11,7 @@ import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from '../../../data/Portfolio/data';
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from '../../../assets/image/portfolio/person.png';
+import PersonImage from '../../../assets/image/portfolio/person_2.png';
 
 const BannerSection = ({
   row,
@@ -30,18 +30,34 @@ const BannerSection = ({
         <Box {...row}>
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
-            <Heading content="Mat Helme" {...nameStyle} />
-            <Heading content="Visual System Designer" {...designationStyle} />
+            <Heading content="Apoorv" {...nameStyle} />
+            <Heading content="" {...designationStyle} />
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
                 style={{ color: '#3444f1' }}
                 size={22}
               />
-              <Heading content="Illustrative Lead at Google" {...roleStyle} />
+              <Heading content="Visual system designer" {...roleStyle} />
+            </Box>
+            <Box {...roleWrapper}>
+              <Icon
+                icon={cornerDownRight}
+                style={{ color: '#3444f1' }}
+                size={22}
+              />
+              <Heading content="Software Developer" {...roleStyle} />
+            </Box>
+            <Box {...roleWrapper}>
+              <Icon
+                icon={cornerDownRight}
+                style={{ color: '#3444f1' }}
+                size={22}
+              />
+              <Heading content="Open Sourcer" {...roleStyle} />
             </Box>
             <Text
-              content="Focused on defining principle driven visual systems that scale to global products and brands. Lately, I've been putting a lot of thought into personalized illustrative languages and getting machines to draw."
+              content="Focused on defining principle driven visual systems that scale to global products and brands. "
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />

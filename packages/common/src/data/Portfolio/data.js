@@ -221,6 +221,57 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
+    title: 'DATA SCIENCE',
+    portfolioItem: [
+      {
+        title: 'Canada Media Site',
+        description:
+          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+        image: PortfolioImage1,
+        link: '#',
+        featuredIn: 'AWWWARDS',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'React JS',
+          },
+          {
+            content: 'Next JS',
+          },
+          {
+            content: 'Styled Component',
+          },
+        ],
+      },
+      {
+        title: 'RedQ, Inc. mobile app',
+        description:
+          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+        image: PortfolioImage2,
+        link: '#',
+        featuredIn: 'AppStore',
+        featuredLink: '#',
+        view: '8.5K',
+        love: '5.5K',
+        feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'React Native',
+          },
+          {
+            content: 'Firebase',
+          },
+          {
+            content: 'Styled Component',
+          },
+        ],
+      },
+    ],
+  },
+  {
     title: 'ANIMATION',
     portfolioItem: [
       {
@@ -272,58 +323,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'TV ADVERTISEMENT',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'MARKETING',
+    title: 'OPEN SOURCE',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -380,19 +380,19 @@ export const PROCESS_STEPS = [
     image: Step1,
     title: '1. Research',
     description:
-      'We work with you to understand user’s stories and validate your idea with real users using lean design sprints.',
+      'Working with clients to understand user stories and validate their idea with real users using lean design sprints.',
   },
   {
     image: Step2,
     title: '2. Design',
     description:
-      'Expanding on the insights gained, you’ll work closely with our design team to create an elegant design',
+      'Expanding on the insights gained, working to create an elegant design creating wireframes, themes and mockups',
   },
   {
     image: Step3,
     title: '3. Build',
     description:
-      'With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you ',
+      'With my scrum-based agile methodology, creating iterative builds frequently.',
   },
 ];
 

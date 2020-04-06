@@ -47,7 +47,7 @@ const ProcessSection = ({
           />
           <Text
             {...secDescription}
-            content="Our process is designed to give you the best shot at success."
+            content="Process designed to give you the best shot at success."
           />
         </Box>
 
@@ -78,7 +78,7 @@ const ProcessSection = ({
               {...learningTitle}
             />
             <Text
-              content="We believe that we succeed when our clients succeed."
+              content="I believe that I succeed when my clients succeed."
               {...learningSubTitle}
             />
             <Text

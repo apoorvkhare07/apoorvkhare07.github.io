@@ -49,53 +49,14 @@ const Footer = ({
               </a>
             </Link>
           </Box>
-          <Box {...col}>
-            <Heading as="h3" content="A treat for your inbox" {...titleStyle} />
-            <Newsletter>
-              <Input
-                inputType="email"
-                placeholder="Email address"
-                iconPosition="right"
-                isMaterial={false}
-                className="email_input"
-              />
-              <Button {...newsletterButton} title="Subscribe" />
-            </Newsletter>
-          </Box>
-        </Box>
 
-        <Box {...row}>
           <Box {...col}>
             <SocialProfile
               className="footer_social"
               items={SOCIAL_PROFILES}
               iconSize={40}
             />
-            <Text
-              as="span"
-              content="© 2018 All rights reserved. "
-              {...copyrightStyle}
-            />
-            <Link href="#">
-              <a>
-                {' '}
-                <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
-              </a>
-            </Link>
           </Box>
-          <Box {...col} {...flexBox}>
-            <Box {...contactItem}>
-              <Text content="Need help?" {...contactTitle} />
-              <Text content="redq.io" {...contactInfo} />
-            </Box>
-            <Box {...contactItem}>
-              <Text content="Feel like talking" {...contactTitle} />
-              <Text content="+12 34 56789" {...contactInfo} />
-            </Box>
-          </Box>
-        </Box>
-
-        <Box {...row} {...noMargin}>
           <Box {...col}>
             <Text
               as="span"
@@ -103,17 +64,6 @@ const Footer = ({
               {...copyrightStyle}
             />
             <Icon icon={heart} size={14} className="heart_sign" />
-          </Box>
-          <Box {...col} {...flexBox}>
-            <FooterNav>
-              {FOOTER_MENU.map((item, index) => (
-                <FooterNavItem key={`footer-nav-item-${index}`}>
-                  <Link href={item.path || '#'}>
-                    <a>{item.label}</a>
-                  </Link>
-                </FooterNavItem>
-              ))}
-            </FooterNav>
           </Box>
         </Box>
       </Container>
