@@ -1,0 +1,206 @@
+{
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!node_modules/@redq/reuse-modal/es/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/icon-example-page.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/flaticon.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/@glidejs/glide/dist/css/glide.core.min.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/rc-drawer/assets/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!node_modules/@redq/reuse-modal/es/index.css 0": 1,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/flaticon.css 0": 2,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/icon-example-page.css 0": 3,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/rc-drawer/assets/index.css 0": 4,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/@glidejs/glide/dist/css/glide.core.min.css 0": 5,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/rc-tabs/assets/index.css 0": 6,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-accessible-accordion/dist/fancy-example.css 0": 7,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-image-gallery/styles/css/image-gallery.css 0": 8
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "styles": 2,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/_app.js": 3,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/_error.js": 4,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/icons.js": 5,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/index.js": 6,
+      "static/runtime/main.js": 7,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/_app.js": 8,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/_error.js": 9,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/icons.js": 10,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/index.js": 11,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/_app.js": 3,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/_error.js": 4,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/agency.js": 5,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/app.js": 6,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/crypto.js": 12,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/hosting.js": 13,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/icons.js": 14,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/index.js": 15,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/portfolio.js": 16,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/ride.js": 17,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/saas.js": 18,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/saasclassic.js": 19,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/saasmodern.js": 20,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/_app.js": 8,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/_error.js": 9,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/icons.js": 10,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/index.js": 11
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      2,
+      7,
+      8,
+      9
+    ]
+  },
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/rc-tabs/assets/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-accessible-accordion/dist/fancy-example.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-image-gallery/styles/css/image-gallery.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
+}

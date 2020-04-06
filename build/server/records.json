@@ -1,0 +1,79 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.js": 0,
+      "multi private-next-pages/_document.js": 1,
+      "multi private-next-pages/icons.js": 2,
+      "multi private-next-pages/index.js": 3,
+      "multi next/dist/pages/_error": 4,
+      "multi private-next-pages/about.js": 2,
+      "multi private-next-pages/contact.js": 5,
+      "multi private-next-pages/agency.js": 5,
+      "multi private-next-pages/app.js": 6,
+      "multi private-next-pages/crypto.js": 7,
+      "multi private-next-pages/hosting.js": 8,
+      "multi private-next-pages/portfolio.js": 9,
+      "multi private-next-pages/ride.js": 10,
+      "multi private-next-pages/saas.js": 11,
+      "multi private-next-pages/saasclassic.js": 12,
+      "multi private-next-pages/saasmodern.js": 13
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/_app.js": 0,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/_document.js": 1,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/_error.js": 2,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/icons.js": 3,
+      "static/j6ofGFdbPUiDBuZ7YgjiO/pages/index.js": 4,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/_app.js": 5,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/_document.js": 6,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/_error.js": 7,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/icons.js": 8,
+      "static/0YAI2AQP4BOSk5k_ctBKy/pages/index.js": 9,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/_app.js": 0,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/_document.js": 1,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/_error.js": 2,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/agency.js": 3,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/app.js": 4,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/crypto.js": 5,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/hosting.js": 6,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/icons.js": 7,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/index.js": 8,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/portfolio.js": 9,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/ride.js": 10,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/saas.js": 11,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/saasclassic.js": 12,
+      "static/pmZ9~scWPlwdsZy9RgCj1/pages/saasmodern.js": 13,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/_app.js": 14,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/_document.js": 15,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/_error.js": 16,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/icons.js": 17,
+      "static/eOpg4RsWDhbD1wlGAxjSQ/pages/index.js": 18
+    },
+    "bySource": {},
+    "usedIds": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+}
