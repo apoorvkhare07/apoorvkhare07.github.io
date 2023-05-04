@@ -68,10 +68,10 @@ class TopNav extends Component {
               {/* <a href="/about"> <u> about </u></a>
               <a href="/blogs"> <u> articles </u></a>
               <a href="/works"> <u> works </u></a> */}
-              <a href="/about">  about </a>
-              <a href="/blogs"> articles </a>
-              <a href="/works">  works </a>
-              <a target= "_blank" href = "" > <span>résumé </span></a>
+              <Link to="/about">  about </Link>
+              <Link to="/blogs"> articles </Link>
+              <Link to="/works">  works </Link>
+              <a target= "_blank" href = "/resume" > <span>résumé </span></a>
 
           </Nav>
     </Navbar>

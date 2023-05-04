@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import '../index.css';
 import WorkTable from '../components/WorkTable'
 import ProjectPanel from '../components/Projects.js';
+import TopNav from '../nav2.js'
 
 class Works extends Component {
     render() {
@@ -40,6 +41,8 @@ class Works extends Component {
         ]
     
         return (
+          <Container>
+          <TopNav />
             <Container fluid className="banner">
                 <Col lg= {12} xs = {10} className="intro">
                 <Row className='subHead'>
@@ -51,6 +54,7 @@ class Works extends Component {
                 <br />
                 {/* <ProjectPanel projectData={projectData} /> */}
                 </Col>
+            </Container>
             </Container>
         )
     }

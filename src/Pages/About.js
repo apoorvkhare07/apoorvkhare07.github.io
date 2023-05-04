@@ -9,10 +9,13 @@ import githublogo from '../static/icons8-github.svg'
 import twitterlogo from '../static/icons8-twitter.svg'
 import linkedinlogo from '../static/icons8-linkedin.svg'
 import maillogo from '../static/icons8-mail.svg'
+import TopNav from '../nav2.js'
 
 class About extends Component {
     render() {
       return (
+        <Container> 
+          <TopNav />
         <Container fluid className="banner">
 
                     <Col lg={12} xs = {10} className= "intro">
@@ -67,6 +70,7 @@ class About extends Component {
 
                     </Col>
 
+            </Container>
             </Container>
     );
     }

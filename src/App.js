@@ -14,12 +14,13 @@ class App extends Component {
   render() {
     return (
       <Container fluid className = 'viewport' >
-        <TopNav />
+        
         <Routes>
           <Route  path='/'      element={<Home/>} />
           <Route  path='/about' element={<About/>} />
           <Route  path='/blogs' element={<Blogs/>} />
           <Route  path='/works' element={<Works/>} />
+          <Route  path='/resume' element={<Resume/>} />
         </Routes>
         <Contact />
       </Container>

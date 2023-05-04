@@ -1,10 +1,17 @@
 import React from "react";
+import ResumePDF from '../static/Resume-dev.jpg';
+import { Container } from "react-bootstrap";
+import TopNav  from "../nav2";
 
 const Resume = () => {
+    
     return (
-        <iframe src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" width="100%" height="500px">
-            
-        </iframe>
+        <Container> 
+          <TopNav />
+        <Container fluid className="banner">
+        <img src={ResumePDF} className="resumeImage"></img>
+        </Container>
+        </Container>
     )
 } 
 

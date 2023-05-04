@@ -3,6 +3,7 @@ import '../index.css';
 import {Col, Row, Container} from 'react-bootstrap';
 import ArticleList from '../articles-list.js'
 import Post from '../components/Post'
+import TopNav from '../nav2.js'
 
 class Blogs extends Component {
     render() {
@@ -12,6 +13,8 @@ class Blogs extends Component {
         'tags': ['a', 'b']
       }
       return (
+        <Container>
+          <TopNav />
         <Container fluid className="banner">
 
                     <Col lg= {12} xs = {10} className="intro">
@@ -39,6 +42,7 @@ class Blogs extends Component {
                         </div> */}
                     </Col>
 
+            </Container>
             </Container>
     );
     }
